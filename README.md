@@ -60,6 +60,7 @@ const prompt = 'Your custom prompt here...';
 ⸻
 
 🧪 How to Use
+
 	1.	Select any text on a webpage
 	2.	Right-click → “Generate Comment with Gemini”
 
