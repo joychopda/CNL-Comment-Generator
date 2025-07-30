@@ -24,7 +24,7 @@ A Chrome extension that uses the **Gemini API** to instantly generate smart, con
 Clone or download the extension files from this repo.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CNL-Comment-Generator.git
+git clone https://github.com/joychopda/CNL-Comment-Generator.git
 
 ```
 ⸻
