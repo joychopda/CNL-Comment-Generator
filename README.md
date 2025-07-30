@@ -1,40 +1,82 @@
-# CNL-Comment-Generator
-A Chrome extension that uses the Gemini API to generate instant comments and analyses on any selected text directly in your browser.
+# 🌐 CNL-Comment-Generator
 
-✨ Features
+A Chrome extension that uses the **Gemini API** to instantly generate smart, contextual comments and analysis on any selected text — right in your browser.
 
-Right-Click to Comment: Simply select text, right-click, and choose "Generate Comment with Gemini."
+---
 
-AI-Powered: Utilizes the Gemini 2.5 Flash model for smart text analysis.
+## ✨ Features
 
-Clean UI: Comments appear in a clean, non-intrusive pop-up.
+- 💬 **Right-Click to Comment**  
+  Select text → Right-click → *"Generate Comment with Gemini"*
 
-Quick Feedback: See a loading indicator while your comment is being generated.
+- 🧠 **AI-Powered Analysis**  
+  Uses **Gemini 2.5 Flash** model for fast, intelligent feedback.
 
-🚀 Get Started
+- 🧼 **Clean UI**  
+  Pop-up comment box appears neatly and non-intrusively.
 
-Download: Get the extension files from this repository.
+---
 
-Add API Key:
+## 🚀 Getting Started
 
-Get your Gemini API Key from Google AI Studio- https://aistudio.google.com/
+### 1. Download
 
-Open config.js in the extension folder and replace const GEMINI_API_KEY = ""; with your key. Its okay to harcode the key for local use cases.
+Clone or download the extension files from this repo.
 
-Feel free to reconfigure the prompt in background.js in const prompt='' to get more perosnalised results. 
+```bash
+git clone https://github.com/YOUR_USERNAME/CNL-Comment-Generator.git
+
+```
+⸻
+
+2. Add Your Gemini API Key
+	•	Get your API key from Google AI Studio:
+👉 https://aistudio.google.com/
+	•	Open config.js and update the following line:
+
+const GEMINI_API_KEY = "your-api-key-here";
+
+🔐 Hardcoding is fine for local usage. Don’t upload it anywhere.
+
+⸻
+
+3. (Optional) Customize the Prompt
+
+Want more personalized comments?
+
+Edit the prompt string in background.js:
+
+const prompt = 'Your custom prompt here...';
 
 
+⸻
 
-Load in Chrome:
+4. Load the Extension in Chrome
+	1.	Go to chrome://extensions
+	2.	Enable Developer mode
+	3.	Click Load unpacked
+	4.	Select the extension’s folder
 
-Go to chrome://extensions.
+⸻
 
-Enable "Developer mode".
+🧪 How to Use
+	1.	Select any text on a webpage
+	2.	Right-click → “Generate Comment with Gemini”
 
-Click "Load unpacked" and select the extension's folder.
+⸻
 
-Use It!
+🛠️ Coming Soon / Ideas
+	•	🌍 Multi-language support
+	•	🧠 Tone/intent customization
+	•	💾 Save or copy comment options
+	•	🔄 Gemini Pro model toggle
 
-Select some text.
+⸻
 
-Right-click and choose "Generate Comment with Gemini."
+📄 License
+
+MIT License — use freely, give credit where due.
+
+- Shields/badges (e.g., version, license, etc.)
+- GIF demo or screenshots
+- A "How it works" section for the curious techies
