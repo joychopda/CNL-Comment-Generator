@@ -76,7 +76,3 @@ const prompt = 'Your custom prompt here...';
 📄 License
 
 MIT License — use freely, give credit where due.
-
-- Shields/badges (e.g., version, license, etc.)
-- GIF demo or screenshots
-- A "How it works" section for the curious techies
